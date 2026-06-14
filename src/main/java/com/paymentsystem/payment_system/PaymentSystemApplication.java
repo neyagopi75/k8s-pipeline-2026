@@ -1,13 +1,13 @@
-package com.paymentsystem.payment_system;
+package com.paymentsystem;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@SpringBootApplication
-public class PaymentSystemApplication {
+@RestController
+public class HealthController {
 
-	public static void main(String[] args) {
-		SpringApplication.run(PaymentSystemApplication.class, args);
-	}
-
+    @GetMapping("/health")
+    public String health() {
+        return "Payment System Running";
+    }
 }

@@ -11,8 +11,8 @@
 	<groupId>com.paymentsystem</groupId>
 	<artifactId>payment-system</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+	<name>payment-system</name>
+	<description>NACH Payment System CI/CD Demo</description>
 	<url/>
 	<licenses>
 		<license/>
